@@ -2,7 +2,7 @@
 
 @TOOD_description
 
-## What You Will build
+## What You Will Build
 @TOOD_description
 
 ## What You Need
@@ -15,9 +15,9 @@
 - You can also import the code straight into your IDE:
     - [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 
-## Prevision Azure Resources required to run this sample
+## Prevision Azure Resources Required to Run This Sample
 
-### Authenticate using the Azure CLI  
+### Authenticate Using the Azure CLI
 Terraform must authenticate to Azure to create infrastructure.
 
 In your terminal, use the Azure CLI tool to setup your account permissions locally.
@@ -80,7 +80,7 @@ It may take a few minutes to run the script. After successful running, you will 
 
 You can go to [Azure portal](https://ms.portal.azure.com/) in your web browser to check the resources you created.
 
-### Export output to your local Environment
+### Export Output to Your Local Environment
 Running the command below to export environment values:
 
 ```shell
@@ -96,11 +96,11 @@ In your terminal, run `mvn clean spring-boot:run`.
 mvn clean spring-boot:run
 ```
 
-## Verify this Sample
+## Verify This Sample
 
 @TOOD_Verify
 
-## Clean up Resources
+## Clean Up Resources
 After running the sample, if you don't want to run the sample, remember to destroy the Azure resources you created to avoid unnecessary billing.
 
 The terraform destroy command terminates resources managed by your Terraform project.   
