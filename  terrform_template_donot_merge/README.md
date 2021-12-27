@@ -1,9 +1,9 @@
-# @TOOD_title 
+# @TODO_title 
 
-@TOOD_description
+@TODO_description
 
 ## What You Will Build
-@TOOD_description
+@TODO_description
 
 ## What You Need
 
@@ -15,7 +15,7 @@
 - You can also import the code straight into your IDE:
     - [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
 
-## Prevision Azure Resources Required to Run This Sample
+## Provision Azure Resources Required to Run This Sample
 This sample will create Azure resources using Terraform. If you choose to run it without using Terraform to provision resources, please pay attention to:
 > [!IMPORTANT]  
 > If you choose to use a security principal to authenticate and authorize with Azure Active Directory for accessing an Azure resource
@@ -79,7 +79,7 @@ terraform -chdir=./terraform apply
 It may take a few minutes to run the script. After successful running, you will see prompt information like below:
 
 ```shell
-@TOOD_your_log
+@TODO_your_log
 ```
 
 You can go to [Azure portal](https://ms.portal.azure.com/) in your web browser to check the resources you created.
@@ -102,7 +102,7 @@ mvn clean spring-boot:run
 
 ## Verify This Sample
 
-@TOOD_Verify
+@TODO_Verify
 
 ## Clean Up Resources
 After running the sample, if you don't want to run the sample, remember to destroy the Azure resources you created to avoid unnecessary billing.
