@@ -68,13 +68,9 @@ After login Azure CLI with your account, now you can use the terraform script to
 terraform -chdir=./terraform init
 
 # Apply your Terraform Configuration
-# Type `yes` at the confirmation prompt to proceed.
-terraform -chdir=./terraform apply
+terraform -chdir=./terraform apply -auto-approve
 
 ```
-
-
-
 
 It may take a few minutes to run the script. After successful running, you will see prompt information like below:
 
@@ -113,7 +109,3 @@ To destroy the resources you created.
 ```shell
 terraform -chdir=./terraform destroy
 ```
-
-
-
-
