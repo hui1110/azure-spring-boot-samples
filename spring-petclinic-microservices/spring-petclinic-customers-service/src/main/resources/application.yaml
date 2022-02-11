@@ -3,15 +3,15 @@ spring:
     bootstrap:
       enabled: true
     azure:
-#      credential:
-#        client-id: ${AZURE_KEYVAULT_CLIENTID}
-#        client-secret: ${AZURE_KEYVAULT_CLIENTKEY}
-#      profile:
-#        tenant-id: ${AZURE_KEYVAULT_TENANTID}
+      credential:
+        client-id: ${AZURE_KEYVAULT_CLIENTID}
+        client-secret: ${AZURE_KEYVAULT_CLIENTKEY}
+      profile:
+        tenant-id: ${AZURE_KEYVAULT_TENANTID}
       keyvault:
         secret:
           property-source-enabled: true
-          endpoint: https://kv-petclinicsample-higci.vault.azure.net/
+          endpoint: ${AZURE_KEYVAULT_URI}
       cosmos:
         database: end2endsample
         endpoint: ${cosmosdburi}
